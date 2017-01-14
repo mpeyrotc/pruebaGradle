@@ -14,6 +14,7 @@ public class SquareTest {
         square = new Square(3,4);
     }
 
+    // this is a comment
     @Test
     public void area() throws Exception {
         assertTrue(square.area() == 12);
