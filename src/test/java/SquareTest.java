@@ -20,4 +20,9 @@ public class SquareTest {
         assertTrue(square.area() == 12);
     }
 
+    @Test
+    public void areaBad() {
+        assertTrue(square.area() == 11);
+    }
+
 }
